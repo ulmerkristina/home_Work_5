@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header {
+  flex-basis: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 192, 192);
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 65%;
+  background-color:rgb(255, 248, 220);
+}
+
+.main-part {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-basis: 40%;
+}
+
+.wrapper-box {
+  margin-bottom: 30px;
+  display: flex;
+  flex-basis: 30%;
+  justify-content: space-between;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 222, 173);
+}
+
+.box-1-2 {
+  flex-basis: 45%;
+  align-items: center;
+}
+
+.box-3 {
+  flex-basis: 30%;
+  padding: 40px;
+}
+aside {
+  flex-basis: 35%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(190, 220, 188);
+}
+
+footer{
+  flex-basis: 20%;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  background-color: rgb(192, 192, 192);
+}
+
+.footer-section{
+  padding: 80px;
+  background-color: rgb(220, 220, 220);
+}
